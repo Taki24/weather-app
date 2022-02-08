@@ -22,7 +22,7 @@ function Weather(props){
 
     // napokra bontás -> OneDayWeather.jsx
     function separateDays(){
-        let day = new Date().getUTCDate();
+        let day = new Date().getUTCDay();
         const separatedDays = [];        
         const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         // console.log(days[day]);
